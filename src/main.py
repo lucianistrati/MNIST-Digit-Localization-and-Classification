@@ -86,7 +86,7 @@ import cv2
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 
 
-from task_one_script import task_one
+from src.image_classification import task_one
 
 
 use_cuda = torch.cuda.is_available()
