@@ -93,7 +93,7 @@ use_cuda = torch.cuda.is_available()
 kwargs = {'num_workers': 1, 'pin_memory': True} if use_cuda else {}
 
 import matplotlib.pyplot as plt
-from task_two_script import task_two
+from src.image_localisation import task_two
 
 from efficientnet_pytorch import EfficientNet
 import torch.nn as nn
